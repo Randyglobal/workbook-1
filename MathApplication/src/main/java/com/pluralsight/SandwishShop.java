@@ -22,9 +22,9 @@ public class SandwishShop {
         System.out.println("Please select you sandwish size: \n 1) Regular \n 2) Large");
         String sandwishStringSize = scanner.next().trim();
         sandwishSize = sandwishStringSize.equalsIgnoreCase("1") ? "1" : "2";
-         System.out.println("Do you want the sandwish loaded?: \n (Y)es \n (N)o");
-         String sandwishStringLoaded = scanner.next().trim();
-         sandwishLoaded = sandwishStringLoaded.equalsIgnoreCase("Y") ? "Y" : "N";
+        System.out.println("Do you want the sandwish loaded?: \n (Y)es \n (N)o");
+        String sandwishStringLoaded = scanner.next().trim();
+        sandwishLoaded = sandwishStringLoaded.equalsIgnoreCase("Y") ? "Y" : "N";
 //         sandwishSize = scanner.next().trim();
      }
      public static void getUserAge(){
