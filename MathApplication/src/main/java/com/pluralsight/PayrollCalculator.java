@@ -32,8 +32,6 @@ public class PayrollCalculator {
         String overTimeString = scanner.next();
         overTime = overTimeString.equalsIgnoreCase("y");
 //        grossPay
-
-
     }
     public static void conditionalPayRoll(){
         //        Passing condition if the user did overtime

@@ -34,6 +34,6 @@ public class BasicCalculator {
         }else{
             System.out.println("Invalid Access");
         }
-
+     scanner.close();
     }
 }
